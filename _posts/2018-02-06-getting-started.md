@@ -1,7 +1,7 @@
 ---
-Post:
-Title:"Getting started"
-Date:2018-02-06
+Layout:
+Title:	"Getting started"
+Date:	2018-02-06
 Categories:
 ---
 # Getting started 
