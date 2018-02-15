@@ -1,7 +1,7 @@
 ---
 Post:
 Title:  "progress"
-Date:   2018-02-14
+Date:   2018-02-15
 Categories:
 
 ---
@@ -34,7 +34,7 @@ Your response should be a number.
 
 }
 
-When i was writing the algorithm i decided to take the string that was passed in as an argument and convert it into an array. What i battled with the most was sorting the array by the length of the words in the array. So i searched it up on StackOverFlow . After getting a way to sort the array , i them returned the first element in the array ;
+When i was writing the algorithm i decided to take the string that was passed in as an argument and convert it into an array. What i battled with the most was sorting the array by the length of the words in the array. So i searched it up on StackOverFlow . After getting a way to sort the array , i them returned the first element in the array.
 
 ## conclusion 
 
