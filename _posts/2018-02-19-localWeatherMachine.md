@@ -8,6 +8,7 @@ Categories:
 
 ## Introduction 
 
+
 FreeCodeCamp gave me a challenge to create a local weather App a project that i worked on for 3 days.
 
 ## Instruction 
