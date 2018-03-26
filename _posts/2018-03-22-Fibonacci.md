@@ -1,7 +1,7 @@
 ---
 Post:   
 Title:  "sum of Fibonacci"
-Date:   2018-03-09
+Date:   2018-03-09 14:03:04 -0600
 Categories: ""
 
 ---
@@ -11,11 +11,9 @@ Categories: ""
 Here is my explanation on how i solved this problem of the sum of all the odd numbers in a fibonacci sequence 
 ## Instructions 
 
-// Given a positive integer num, return the sum of all odd Fibonacci numbers that are less than or equal to num.
-
-// The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
-
-// For example, sumFibs(10) should return 10 because all odd Fibonacci numbers less than 10 are 1, 1, 3, and 5.
+ Given a positive integer num, return the sum of all odd Fibonacci numbers that are less than or equal to num.
+ The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
+ For example, sumFibs(10) should return 10 because all odd Fibonacci numbers less than 10 are 1, 1, 3, and 5.
 
 
 ## Solution 
