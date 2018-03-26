@@ -21,6 +21,7 @@ Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a strin
 ### Code
 
 `
+
 function convertHTML(str) {
   
   var temp = str.split('');
@@ -52,6 +53,8 @@ function convertHTML(str) {
 
 
 `
+
+
 Switch statement passes in a value followed by curly braces instead the curly braces you get the word Case followed by a element representing what you pass in as a value ,
 underneath it you basically tell it that if the element
 is passed in with a specific name then do the process that follows ? 
