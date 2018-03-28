@@ -36,7 +36,8 @@ console.log(truthCheck([{"user": "Tinky-Winky", "sex": "male"},
   {"user": "Po", "sex": "female"}], "sex"));
 
 `
- My Function toke in  two parameters  one for the Object and the other for the key . I looped through the object parameter and determined if each Object had a property Pre 
+ My Function toke in  two parameters  one for the Object and the other for the key . I looped through the object
+  parameter and determined if each Object had a property Pre 
  if so it had to a value and it should be a falsy value , if it was true i return true or else i return false.
 
 ## conclusion 
