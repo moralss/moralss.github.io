@@ -8,7 +8,7 @@ Categories:
 
 
 ## Introduction 
-When i was doing the Pomodro Clock Challenge i had to decide between the two which one i was going to use , with some research and Theo's Explanation i used the setInterval 
+When i was doing the Pomodoro Clock Challenge i had to decide between the two which one i was going to use , with some research and Theo's Explanation i used the setInterval 
 to solve the challenge. 
     
 ## Explanation 
@@ -40,5 +40,5 @@ function SessionDecreaseTimer() {
 
 
 ## Conclusion 
-I couldn't use the setTimeout() function because my Pomodro clock needed to count down , by doing so i needed a function that could execute unlimited times for every second 
-until i tell it to stop. So that's why i went with the setInterval it worked perfectly for the Pomodro Clock. 
+I couldn't use the setTimeout() function because my Pomodoro clock needed to count down , by doing so i needed a function that could execute unlimited times for every second 
+until i tell it to stop. So that's why i went with the setInterval it worked perfectly for the Pomodoro Clock. 
