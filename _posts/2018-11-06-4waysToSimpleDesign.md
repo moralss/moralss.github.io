@@ -38,8 +38,8 @@ you vulnerable to bugs.
 
 * the Last one is Small
 
-functions should be small and have a single responsibility. following the previews rules will automatically
-give you the last Rule of small code small functions   
+functions should be small and have single responsibility. By following the previews rules you  will automatically
+get to the last rule of small.   
 
 ## Conclusion 
 
