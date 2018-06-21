@@ -4,7 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>A Pen by moral</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121189634-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
+    gtag('config', 'UA-121189634-1');
+  </script>
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -20,17 +28,25 @@
   <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
 
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
     <a class="navbar-brand" href="#">ICE</a>
 
     <ul nav navbar-nav navbar-collapse navbar-right id="myNavbar">
-      <li> <a href="#Contact">Contact</a> </li>
-      <li> <a href="#MyProfile">Profile</a> </li>
-      <li> <a href="#AboutMe">About Me</a> </li>
-      <li> <a href="blog.html">Blog</a> </li>
+      <li>
+        <a href="#Contact">Contact</a>
+      </li>
+      <li>
+        <a href="#MyProfile">Profile</a>
+      </li>
+      <li>
+        <a href="#AboutMe">About Me</a>
+      </li>
+      <li>
+        <a href="blog.html">Blog</a>
+      </li>
 
     </ul>
   </nav>
@@ -98,24 +114,54 @@
   <section id="Contact" class="container-fluid">
     <h2 class="text-center">Get in touch</h2>
 
-    <div class="col-md-4"><label style="font-size:20px;float:right ">Name</label><br></div>
-    <div class="col-md-8"><input style="font-size:20px" class="input" required="" type="text" name="name" placeholder="name" size="35"><br></div>
-    <div class="col-md-4"><label style="font-size:20px;float:right">Email</label><br></div>
-    <div class="col-md-8"><input style="font-size:20px" class="input" required="" name="Email" type="text" placeholder="Email" size="35"><br></div>
-    <div class="col-md-4"><label style="font-size:20px;float:right">Message</label><br></div>
-    <div class="col-md-8"><textarea rows="4" cols="50" style="font-size:20px" size="35" class="input" required="" name="message" type="text" placeholder="message"></textarea><br></div>
+    <div class="col-md-4">
+      <label style="font-size:20px;float:right ">Name</label>
+      <br>
+    </div>
+    <div class="col-md-8">
+      <input style="font-size:20px" class="input" required="" type="text" name="name" placeholder="name" size="35">
+      <br>
+    </div>
+    <div class="col-md-4">
+      <label style="font-size:20px;float:right">Email</label>
+      <br>
+    </div>
+    <div class="col-md-8">
+      <input style="font-size:20px" class="input" required="" name="Email" type="text" placeholder="Email" size="35">
+      <br>
+    </div>
+    <div class="col-md-4">
+      <label style="font-size:20px;float:right">Message</label>
+      <br>
+    </div>
+    <div class="col-md-8">
+      <textarea rows="4" cols="50" style="font-size:20px" size="35" class="input" required="" name="message" type="text" placeholder="message"></textarea>
+      <br>
+    </div>
     <div class="icons">
       <div class="col-md-12">
-        <a href=""> <i  class="fa fa-facebook"></i> </a>
-        <a href=""> <i  class="fa fa-twitter"></i> </a>
-        <a href=""> <i  class="fa fa-link"></i> </a>
-        <a href=""> <i  class="fa fa-snapchat"></i> </a>
-        <a href=""> <i class="fa fa-instagram"></i> </a>
+        <a href="">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-link"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-snapchat"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram"></i>
+        </a>
 
       </div>
     </div>
 
-    <div class="col-md-2"><button type="submit" class="btn btn-primary" style="font-size:20px;float:right">Send request</button></div>
+    <div class="col-md-2">
+      <button type="submit" class="btn btn-primary" style="font-size:20px;float:right">Send request</button>
+    </div>
 
 
 
