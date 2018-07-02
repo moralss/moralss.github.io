@@ -12,11 +12,11 @@ When I was busy building a recipe box, I had to use local storage to save
 my recipes. In this blog post, I am going to show you how to use local storage and what local storage really is.  
 
 
-## 4 what is a browser local storage
+##  Definition
 
 local storage is a component of the Web storage application programming interface. It is a method by which Web pages locally store named key/value pairs inside a client's Web browser. ... Local storage is mainly used to store and retrieve data in HTML pages from the same domain.
 
-## how to incorporate local storage in your application
+## How to incorporate local storage in your application
 they are certain key factors for incorporating local storage to your website,
 first, you have to understand the code that you need to store data to local storage and the other one is how to read data from local storage. Let me elaborate using 
 an example I had when creating the recipe box my recipes and ingredients were 
