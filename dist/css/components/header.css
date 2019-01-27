@@ -1,0 +1,40 @@
+.header__medium {
+  margin: 0.5rem;
+  padding: 0.5rem; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif; }
+
+html {
+  background-color: rgba(241, 241, 241, 0.979); }
+
+.paragraph {
+  font-size: 1.5rem; }
+
+.header__main {
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 200; }
+
+.left__spacing {
+  margin: 2rem; }
+
+.header {
+  display: grid;
+  background-image: linear-gradient(to right bottom, rgba(9, 15, 17, 0.8), rgba(9, 15, 107, 0.8)), url("../../imgs/IMG_1080.JPG");
+  background-size: cover;
+  background-position: top;
+  height: 80vh; }
+  .header__h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.5rem;
+    align-self: end; }
+  .header__paragraph {
+    color: white;
+    font-weight: 150;
+    font-size: 1.5rem; }
