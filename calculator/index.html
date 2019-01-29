@@ -5,33 +5,34 @@
 	<title>Calculator</title>
 </head>
 <link rel="stylesheet" href="style.css">
+
 <body>
 	<div class="calculator">
 		<textarea id="output" class="form-control" rows="3" id="comment"></textarea>
 		<div class="calculator-buttons">
-			<button class="calc-button" onclick="deleteAll()">AC</button>
-			<button class="calc-button" onclick="deletePreviewsValue() ">CE</button>
+			<button class="calc-button" onclick="deleteAll()"> <span> AC</span></button>
+			<button class="calc-button" onclick="deletePreviewsValue() "> <span> CE</span></button>
 
-			<button class="calc-button" onclick="display('/')">&divide;</button>
-			<button class="calc-button" onclick="display('*')">&times;</button>
+			<button class="calc-button" onclick="display('/')"> <span> &divide;</span></button>
+			<button class="calc-button" onclick="display('*')"> <span> &times; </span></button>
 
-			<button class="calc-button" onclick='display(7);'>7</button>
-			<button class="calc-button" onclick='display(8);'>8</button>
-			<button class="calc-button" onclick='display(9);'>9</button>
-			<button class="calc-button" onclick="display('-');">&minus;</button>
+			<button class="calc-button" onclick='display(7);'> <span> 7</span></button>
+			<button class="calc-button" onclick='display(8);'> <span> 8 </span></button>
+			<button class="calc-button" onclick='display(9);'> <span> 9</span></button>
+			<button class="calc-button" onclick="display('-');"> <span>  &minus;</span></button>
 
-			<button class="calc-button" onclick='display(4);'>4</button>
-			<button class="calc-button" onclick='display(5);'>5</button>
-			<button class="calc-button" onclick='display(6);'>6</button>
-			<button class="calc-button" onclick="display('+');">&plus;</button>
+			<button class="calc-button" onclick='display(4);'> <span> 4</span></button>
+			<button class="calc-button" onclick='display(5);'> <span> 5</span></button>
+			<button class="calc-button" onclick='display(6);'> <span> 6</span></button>
+			<button class="calc-button" onclick="display('+');"> <span> &plus; </span></button>
 
-			<button class="calc-button" onclick='display(1);'>1</button>
-			<button class="calc-button" onclick='display(2);'>2</button>
-			<button class="calc-button" onclick='display(3);'>3</button>
+			<button class="calc-button" onclick='display(1);'> <span> 1</span></button>
+			<button class="calc-button" onclick='display(2);'> <span> 2</span></button>
+			<button class="calc-button" onclick='display(3);'> <span> 3</span></button>
 
-			<button class="calc-button is-equals" onclick="generateAnswer() ">&equals;</button>
-			<button class="calc-button is-zero" onclick='display(0);'>0</button>
-			<button class="calc-button" onclick="display('.');">.</button>
+			<button class="calc-button is-equals" onclick="generateAnswer() "> <span> &equals; </span></button>
+			<button class="calc-button is-zero" onclick='display(0);'> <span> 0</span></button>
+			<button class="calc-button" onclick="display('.');"> <span> .</span></button>
 		</div>
 		<script src="mainJs.js ">
 

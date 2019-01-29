@@ -1,23 +1,36 @@
 	* {
 		box-sizing: border-box;
+		color:black;
+	}
+
+	span{
+		color:black;
 	}
 
 	body {
-		background: #F6F6F6;
-		padding-bottom: 30px;
-		padding-top: 30;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		background: rgb(43, 226, 202);
+		margin-top:60px;
+		padding-top:60px;
 	}
 
 	.calculator {
+		display:grid;
+		justify-content: center;
+		align-content: center;
 		max-width: 400px;
 		margin: 0 auto;
 		border: 2px solid #111;
 		border-radius: 5px;
+		background-color:grey;
 	}
 
 	#output {
 		background: none;
 		border: none;
+		color:white;
 		box-shadow: none;
 		width: 100%;
 		border-bottom: 2px solid #111;
@@ -33,7 +46,8 @@
 	}
 
 	.calc-button {
-		background: rgba(0, 0, 0, 0.5);
+		/* background-color:white; */
+		/* background: rgba(0, 0, 0, 0.5); */
 		border: 1px solid #111;
 		padding: 20px;
 		color: #EEE;

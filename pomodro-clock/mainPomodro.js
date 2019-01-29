@@ -36,15 +36,24 @@ function resetPomodroClock() {
     location.reload();
 }
 
+
 function BreakDecreaseTimer() {
     breakTime--;
     if (breakTime <= 0) {
         clearInterval(breakInterval);
         styleElement(["completeSession"], "visible");
         styleElement(["breakOutput", "BreakTimeLabel"], "hidden");
+        playSound()
     };
 
     updateClockDisplay("breakOutput", breakTime);
+}
+
+
+function playSound() {
+    var sound = new Audio();
+    sound.src = "Mario-coin-sound.mp3";
+    sound.play();
 }
 
 function SessionDecreaseTimer() {
@@ -69,10 +78,10 @@ function hiddenElement() {
 
 function startCountDown() {
 
-    styleElement(["subtractBreak", "setSession", "setBreak", "SubtractSession", "addSession", "addBreak", "breakOutput"], "hidden");
+    styleElement(["subtractBreak", "setSession", "setBreak", "SubtractSession", "addSession", "addBreak", "breakOutput", "label", "label1"], "hidden");
     styleElement(["SessionTimeLabel"], 'visible');
     SessionInterval = setInterval(SessionDecreaseTimer, 1000);
-    
+
 };
 
 function updateClockDisplay(display, counter) {

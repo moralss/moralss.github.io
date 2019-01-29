@@ -1,27 +1,85 @@
     body {
-        background-color: #8245FB;
+        background-color: rgb(54, 194, 147);
+        /* overflow: hidden; */
+    }
+
+    #SessionTimeLabel{
+    font-size:1.8rem;
+    margin:1rem;        
     }
 
 
-    #SessionOutput {
-        font-size: 70px;
-        justify-self: center;
+    /* #complete{
+    } */
+
+
+    @keyframes bounce{
+        0%{
+            font-size:35px;
+        }
+
+        50%{
+            font-size:20px;
+        }
+
+
+
+        100%{
+            font-size:35px;
+        }
+
+        
+
+    }
+
+    #BreakTimeLabel{
+     font-size:1.8rem;
+    margin:1rem;  
+    } 
+
+    label{
         text-align: center;
-        font-size:50px;
+        font-size:1.4rem;
+        margin-left:2rem;
+    }
+
+    span{
+        display: block;
+        margin-left:2rem;
+        
+
+    }
+
+    #SessionOutput {
+        justify-self: center;
+        display:grid;
+        text-align: center;
+        font-size:35px;
     }
 
     #section3 {
-        display:grid;
         justify-content: center;
         grid-template-columns: repeat(3, 1fr);
      }
 
 
+     h3{
+
+     }
+
+.header{
+    text-transform: uppercase;
+    text-align:center;
+    font-size:4rem;
+    font-weight: 200;
+    /* word-spacing: 0.4rem; */
+    /* letter-spacing: 0.5rem; */
+    font-family: 'Lucida Sans';
+}
 
     #breakOutput {
-        font-size: 70px;
         text-align: center;
-        font-size:50px;
+        font-size:35px;
     }
 
     .SetSession {
@@ -31,24 +89,45 @@
     }
 
      button:hover {
-        background: #383;
+        background: rgba(96, 246, 37, 0.376);
         cursor: pointer;
     }
 
     button {
-        height: 5rem;
-        width: 10rem;
+        text-transform: uppercase;
+        height: 3rem;
+        width: 5rem;
         margin: 2rem;
+        font-size:1.2rem;
         border: 1px solid transparent;
         border-radius: 25px;
-        background-color: green;
+        background-color: rgba(255, 255, 255, 0.87);
+        border:0.5px solid black;
     }
 
  
+    .menu{
+        position: fixed;
+        padding-top: 3rem;
+    }
+
+    .session_button{
+        font-size:60px;
+        position: absolute;
+    }
+
+
+    
 
     #completeSession {
+        position: relative;
+        font-weight: 200;
+        animation-name: bounce;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
         display: flex;
         justify-content: center;
-        font-size: 70px;
+        font-size: 50px;
         visibility: hidden;
+    
     };

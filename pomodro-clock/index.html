@@ -8,40 +8,53 @@
 
 <style>
 
-    
+
 
 </style>
 
 <body onload="hiddenElement()">
-    <h1 style="text-align:center;font-size:80px;">PomodroClock count down</h1>
+    <h1 class="header">Pomodora Clock : Count down</h1>
+    <!-- <h3> count down</h3> -->
 
     <div class="SetSession">
         <div>
-            <label id="setSession" for="comments">Set Session time</label>
+            <div>
+                <label id="setSession" for="comments">Set time </label>
+                <span id="label"> Session </span>
+            </div>
+
             <button id="SubtractSession" onclick="subtactSessionTime()"> - </button>
             <button id="addSession" onclick="addSessionTime()"> + </button>
-            <div id="SessionTimeLabel" style="font-size:50px;">Session time remaining:</div>
+            <div id="SessionTimeLabel">Session time remaining:</div>
             <div id="SessionOutput"></div>
         </div>
 
         <div>
-            <label id="setBreak" for="comments">Set break time</label>
+            <div>
+                <label id="setBreak" for="comments">Set time </label>
+                <span id="label1"> Break</span>
+            </div>
             <button id="subtractBreak" onclick="subtactBreakTime()"> - </button>
             <button id="addBreak" onclick="addSessionBreakTime()"> + </button>
-            <div id="BreakTimeLabel" style="font-size:50px;">Break time remaining:</div>
+            <div id="BreakTimeLabel">Break time remaining:</div>
             <div id="breakOutput"></div>
         </div>
     </div>
 
+    
+        <div class="menu">
+            <button class="btn btn-primary" class="session_button" id="startCountDown" onClick="startCountDown()"> start</button>
+            <button class="btn btn-primary" class="session_button" onClick="resetPomodroClock()">Reset</button>
+    
+        </div>
+
 
     <div id="section3">
-        <h1 id="completeSession">Session Complete</h1>
-        <button class="btn btn-primary" style="font-size:25px" id="startCountDown" onClick="startCountDown()"> start</button>
-        <button class="btn btn-primary" style="font-size:25px;" onClick="resetPomodroClock()">Reset</button>
+        <h1 id="completeSession">Time Complete</h1>
     </div>
 
     <script src="mainPomodro.js"></script>
-  
+
 </body>
 
 </html>
