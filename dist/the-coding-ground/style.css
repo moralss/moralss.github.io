@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+    background-color:rgba(196, 211, 194, 0.835);
+}
+
+
+.wrapper{
+    display:grid;
+
+    grid-template-columns: repeat(auto-fit , minmax(25rem , 1fr));
+  }
+
+.wrapper > div{
+    margin-top:3rem;
+}
+
+
+.trello_header{
+    font-size:2rem;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+  .project{
+    display:grid;
+    grid-gap:1rem;
+    text-align: left;
+    justify-content: center;
+    
+  }
+
+  .project_header{
+      font-size:1.5rem;
+      font-weight: 200;
+      font-family: sans-serif;
+  }
+
+
