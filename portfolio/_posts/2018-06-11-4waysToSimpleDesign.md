@@ -16,8 +16,7 @@ In my blog post, I am going to share with you the Four Rules of Simple Design.
 ## 4 ways to simple design  
 * the first Rule speaks about Tests pass
 
-refers to TDD written tests, not automated tests when designing you should write the test first and then write enough 
-code to make the test pass. When tests are written it makes it easy to maintain the code 
+refers to TDD written tests, not automated tests when designing you should write the test first and then write enough code to make the test pass. When tests are written it makes it easy to maintain the code 
 and add new features  to the code, also helps with verification, 
 making sure that everything in your system works accordingly 
 
@@ -38,9 +37,9 @@ you vulnerable to bugs.
 
 * the Last one is Small
 
-functions should be small and have single responsibility. By following the previews rules you  will automatically
+functions should be small and have a single responsibility. By following the previews rules you will automatically
 get to the last rule of small.   
 
 ## Conclusion 
 
-Apply this four rules can make you a great programmer something that I am still working towards. 
+Apply these four rules can make you a great programmer something that I am still working towards. 
